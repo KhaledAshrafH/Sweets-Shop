@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../Images/back.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 90px;
+    margin-left: 180px;
+    margin-top: 15px;
+    display: inline-block;
+}
+h2{
+    display: inline-block;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 18px;
+    left:375px;
+    color: white;
+    
+}
+h2 a{
+    text-decoration: none;
+    color: white;
+}
+h2 a:hover{
+    color: rgb(60, 0, 75);
+    cursor: pointer;
+}
+header{
+    background-color: white;
+    width: 100%;
+    height: 450px;
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 20PX;
+}
+header nav li{
+    list-style: none;
+    float: left;
+    position: relative;
+    left: 50px;
+    padding-left: 25px;
+    bottom: 25px;
+    
+}
+header section{
+    display: flex;
+    clear: left;
+    padding-top: 15px;
+    justify-content: space-between;
+
+}
+header nav li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(24, 141, 141);
+    font-weight: bolder;
+    text-shadow:1px 1px 7px rgb(59, 59, 59);
+} 
+header div img{
+    width: 400px;
+    height: 400px;
+}
+.offer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px ;
+    padding: 15px 130px 0px;
+    margin-bottom: 20px;
+}
+.offer div img{
+    width: 500px;
+    height: 200px;
+}
+.line{
+    color: white;
+    font-weight: bolder;
+    margin-left: 150px;
+}
+.feature{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 15px 130px 0px;
+}
+
+.pro1{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-family:'Pacifico', cursive;
+    font-size: 35px;
+    position:relative;
+    right: 20px;
+    
+}
+.feature div img{
+    border: 8px white solid;
+}
+.feature div p{
+    text-align: start;
+    padding-top: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight: bolder;
+
+}
+.feature div p span{
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+footer{
+    background-color: white;
+    margin-top: 35px;
+    width: 100%;
+    height: 15%;
+    padding:35px;
+    box-sizing: border-box;
+    
+}
+footer li{
+    list-style: none;
+    display: inline;
+    position: relative; 
+    left: 230px;
+    top: 30px;
+}
+footer li a{
+    text-align: center;
+    text-decoration: none;
+    font-family:'Pacifico', cursive;
+    font-size: 30px;
+    padding-left: 50px;
+       
+}
+footer li a:hover{
+    color: rgb(60, 0, 75);
+    cursor: pointer;
+
+}
+header nav li a:hover{
+    color: rgb(60, 0, 75);
+    cursor: pointer;
+
+}
